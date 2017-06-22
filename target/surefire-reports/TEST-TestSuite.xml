@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="119.112" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="testmaven"/>
+    <property name="PWD" value="/Applications/Jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/amit/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home//bin:/Users/amit/Library/Android/sdk/tools:/Users/amit/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin:/Users/amit/apache-maven-3.5.0/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="7d43c5f57688de96"/>
+    <property name="POM_ARTIFACTID" value="boutiqaat.ios.com"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="DDB7F495-C990-41FD-BF33-AAAE67A6280C"/>
+    <property name="user.country.format" value="KW"/>
+    <property name="JAVA_MAIN_CLASS_2176" value="Main"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="boutiqaat.ios.com"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="amit"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="testmaven"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/testmaven/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="TMPDIR" value="/var/folders/7l/08gyrtgn5pb3yk65qjm97mnh0000gp/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Asia/Kuwait"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="4"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/amit/apache-maven-3.5.0/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.12.5"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/testmaven/4/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/testmaven/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="amit"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/amit"/>
+    <property name="POM_GROUPID" value="boutiqqat.ios"/>
+    <property name="user.home" value="/Users/amit"/>
+    <property name="BUILD_TAG" value="jenkins-testmaven-4"/>
+    <property name="JENKINS_SERVER_COOKIE" value="7d43c5f57688de96"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/amit/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.k946Tp2IHk/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/amit/apache-maven-3.5.0"/>
+    <property name="java.class.path" value="/Users/amit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.11.jar:/Users/amit/apache-maven-3.5.0/boot/plexus-classworlds-2.5.2.jar:/Users/amit/apache-maven-3.5.0/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/amit/apache-maven-3.5.0 /Users/amit/.jenkins/war/WEB-INF/lib/remoting-3.7.jar /Users/amit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.11.jar /Users/amit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.11.jar 49457"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home//bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/Users/amit/apache-maven-3.5.0"/>
+    <property name="java.io.tmpdir" value="/var/folders/7l/08gyrtgn5pb3yk65qjm97mnh0000gp/T/"/>
+    <property name="HUDSON_HOME" value="/Users/amit/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/amit/apache-maven-3.5.0/bin"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="OLDPWD" value="/Users/amit"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.4qUYGDMwwv/Listeners"/>
+    <property name="LC_CTYPE" value="UTF-8"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/amit/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F6:0x0:0x0"/>
+    <property name="user.dir" value="/Users/amit/Documents/workspace/boutiqaat.ios.com"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="/Users/amit/apache-maven-3.5.0"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="4"/>
+    <property name="ANDROID_HOME" value="/Users/amit/Library/Android/sdk"/>
+    <property name="TERM_PROGRAM_VERSION" value="388.1"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/amit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.11.jar"/>
+    <property name="WORKSPACE" value="/Users/amit/Documents/workspace/boutiqaat.ios.com"/>
+    <property name="maven3.interceptor.common" value="/Users/amit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.11.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="amit"/>
+  </properties>
+  <testcase name="changethecountry" classname="boutiqaat.ios.com.Oman" time="47.83">
+    <failure message="org.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;Boutiqaats-Mac-mini.local&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: driver.version: IOSDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+org.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Boutiqaats-Mac-mini.local', ip: '192.168.1.106', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: driver.version: IOSDriver
+	at boutiqaat.ios.com.Oman.changethecountry(Oman.java:75)
+Caused by: org.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond
+	at boutiqaat.ios.com.Oman.changethecountry(Oman.java:75)
+</failure>
+  </testcase>
+  <testcase name="teardown" classname="boutiqaat.ios.com.Oman" time="57.844">
+    <failure message="org.apache.http.conn.HttpHostConnectException: Connect to 0.0.0.0:4723 [/0.0.0.0] failed: Connection refused (Connection refused)&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;Boutiqaats-Mac-mini.local&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+org.apache.http.conn.HttpHostConnectException: Connect to 0.0.0.0:4723 [/0.0.0.0] failed: Connection refused (Connection refused)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Boutiqaats-Mac-mini.local', ip: '192.168.1.106', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 0.0.0.0:4723 [/0.0.0.0] failed: Connection refused (Connection refused)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+</failure>
+  </testcase>
+</testsuite>

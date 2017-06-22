@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 119.112 s <<< FAILURE! - in TestSuite
+changethecountry(boutiqaat.ios.com.Oman)  Time elapsed: 47.83 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+org.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Boutiqaats-Mac-mini.local', ip: '192.168.1.106', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: driver.version: IOSDriver
+	at boutiqaat.ios.com.Oman.changethecountry(Oman.java:75)
+Caused by: org.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond
+	at boutiqaat.ios.com.Oman.changethecountry(Oman.java:75)
+
+teardown(boutiqaat.ios.com.Oman)  Time elapsed: 57.844 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+org.apache.http.conn.HttpHostConnectException: Connect to 0.0.0.0:4723 [/0.0.0.0] failed: Connection refused (Connection refused)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Boutiqaats-Mac-mini.local', ip: '192.168.1.106', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 0.0.0.0:4723 [/0.0.0.0] failed: Connection refused (Connection refused)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+
